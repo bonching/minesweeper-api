@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: minesweeper-api
+  data:
+    mongodb:
+      database: minesweeper
+      uri: mongodb://localhost:27017/
+      auto-index-creation: true
+logging:
+  level:
+    root: error
+    edu.vphs.stf.minesweeper: trace
